@@ -13,6 +13,7 @@ public class Fireman extends Thread {
         this.start();
     }
 
+    @Override
     public void run() {
         try {
             Thread.sleep(100);
